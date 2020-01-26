@@ -1,0 +1,86 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+background-color: #D8D8D8;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+
+.container {
+  margin: 10px 30px;
+  width: 375px;
+  height: 667px;
+  padding: 0px;
+  outline: solid 1px rgba(89, 89, 89, 0.23);
+  overflow: hidden;
+}
+
+
+.map {
+  background-image: url(../images/map_temp.jpg);
+  background-position: center;
+  width: 375px;
+  height: 306px;
+}
+
+h1 {
+  position: relative;
+  padding-top: 2px;
+  text-align: center;
+  font-family: sf pro text;
+  font-weight: 600;
+  font-size: 106%;s
+}
+
+h3{
+  padding-left: 8px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 106%;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #F79868;
+}
+
+
+img[alt="back"] {
+    position: absolute;
+    left: 8px /* Distance from the left side of the
+                  page where you want the image*/
+}
+
+img[alt="favorite button"] {
+    position: absolute;
+    right: 8px /* Distance from the right side of the
+                   page where you want the image*/
+}
+
+.nav.bar {
+  height: 44px;
+  padding:10px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(89, 89, 89, 0.23);
+  border-bottom-width: 1px;
+}
+
+.stops li {
+  background-color: #FFFFFF;
+  line-height: 44px;
+  border-bottom: solid;
+  border-color: rgba(89, 89, 89, 0.23);
+  border-width: 1px;
+  padding: 0 0 0 16px;
+}
+
+.stops img {
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+.time {
+  float: right;
+  padding-right: 8px;
+}
